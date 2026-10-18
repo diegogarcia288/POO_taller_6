@@ -52,5 +52,32 @@
 
   Éste error aparece porque el atributo titulo tiene acceso privado por lo que no se puede acceder a él sin utilizar Getters y Setters.
 
+ # PARTE C
+
+  **Preguntas**
 
   
+1. ¿Qué guarda una variable int y qué guarda una variable Libro?
+
+	Una variable int guarda un Número Entero que va directamente a un espacio específico en la memoria, la variable Libro guarda una referencia a un objeto
+
+
+2. ¿Por qué prestar con l2 cambió l1 pero no l3?
+
+   Al prestarse con l2 cambió l1 fue porque fue directamente instaciada como un alias, es decir, se guardó en el mismo lugar de memoria en que se guardó l1. Por el contrario l3 fue guardado en otro diferente.
+
+   
+3. ¿Por qué el compilador no detectó la NullPointerException?
+
+   Ésto sucedió porque se evitó el error directamente con condicionales if y else.
+
+   
+4. ¿Qué diferencia hay entre modificar el objeto que recibe un método y asignarle uno nuevo a su parámetro?
+
+   Al modificar un objeto que recibe un método éste se altera y el cambio se refleja
+
+   
+5. ¿Qué invariantes protege Libro y cómo las protege?
+
+   Asegura un libro que no tenga título vacío y los protege con encapsulamientos.
+
